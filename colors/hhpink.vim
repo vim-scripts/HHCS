@@ -1,7 +1,7 @@
 " Vim color file {{{1
 "  Maintainer: hira@users.sourceforge.jp
-" Last Change: 2003/11/09 (Sun) 20:14:11.
-"     Version: 1.1
+" Last Change: 2003/11/29 (Sat) 13:28:25.
+"     Version: 1.2
 " This color scheme uses a dark background.
 
 " Happy Hacking color scheme {{{1
@@ -15,14 +15,14 @@ let html_my_rendering = 1
 
 
 " frame & title & message (theme) {{{1
-hi LineNr                  gui=underline   guifg=#653040 guibg=#200510
+hi Folded                  gui=none        guifg=#855060 guibg=bg
+hi FoldColumn              gui=none        guifg=#855060 guibg=bg
+hi LineNr                  gui=underline   guifg=#855060 guibg=#200510
 hi VertSplit               gui=underline   guifg=bg      guibg=#200510
 hi StatusLine              gui=underline   guifg=fg      guibg=#200510
 hi StatusLineNC            gui=underline   guifg=#3c2c31 guibg=#200510
 hi NonText                 gui=underline   guifg=#3c2530
 hi NonText                                 guibg=#3c2530
-hi Folded                  gui=none        guifg=#653040 guibg=bg
-hi FoldColumn              gui=none        guifg=#653040 guibg=bg
 " title
 hi Title                   gui=underline   guifg=fg      guibg=#653040 
 " message
@@ -34,7 +34,7 @@ hi Question                gui=underline   guifg=bg      guibg=#983266
 hi WildMenu                gui=underline   guifg=bg      guibg=#cc7990
 hi Cursor                  gui=underline   guifg=bg      guibg=#cc7990
 hi IncSearch               gui=underline   guifg=bg      guibg=#cc7990
-hi CursorIM                gui=underline   guifg=bg      guibg=#cc7990
+hi CursorIM                gui=underline   guifg=fg      guibg=#884830
 hi Search                  gui=underline   guifg=bg      guibg=#993356
 hi Visual                  gui=underline   guifg=bg      guibg=#885672
 
@@ -54,7 +54,7 @@ hi Todo                    gui=underline   guifg=bg      guibg=#cc568c
 hi Error                   gui=underline   guifg=fg      guibg=#335699
 hi Special                 gui=none        guifg=#bb6b66 guibg=bg   
 hi SpecialKey              gui=none        guifg=#cca966 guibg=bg   
-hi Identifier              gui=none        guifg=#ee99b6 guibg=bg   
+hi Identifier              gui=none        guifg=#be6986 guibg=bg   
 hi Constant                gui=none        guifg=#882223 guibg=bg   
 hi Statement               gui=none        guifg=#a466aa guibg=bg   
 hi Comment                 gui=none        guifg=#884830 guibg=bg   

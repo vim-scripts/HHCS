@@ -1,7 +1,7 @@
 " Vim color file {{{1
 "  Maintainer: hira@users.sourceforge.jp
-" Last Change: 2003/11/09 (Sun) 20:14:11.
-"     Version: 1.1
+" Last Change: 2003/11/29 (Sat) 13:28:25.
+"     Version: 1.2
 " This color scheme uses a dark background.
 
 " Happy Hacking color scheme {{{1
@@ -15,9 +15,9 @@ let html_my_rendering = 1
 
 
 " frame & title & message (theme) {{{1
-hi LineNr                  gui=underline   guifg=#555144 guibg=#1c1910
-hi Folded                  gui=none        guifg=#555144 guibg=bg
-hi FoldColumn              gui=none        guifg=#555144 guibg=bg
+hi LineNr                  gui=underline   guifg=#757164 guibg=#1c1910
+hi Folded                  gui=none        guifg=#757164 guibg=bg
+hi FoldColumn              gui=none        guifg=#757164 guibg=bg
 " title
 hi Title                   gui=underline   guifg=fg      guibg=#555144 
 " message
@@ -33,7 +33,7 @@ hi StatusLineNC            gui=underline   guifg=#3c382c guibg=#1c1910
 hi WildMenu                gui=underline   guifg=bg      guibg=#ccbf99
 hi Cursor                  gui=underline   guifg=bg      guibg=#ccbf99
 hi IncSearch               gui=underline   guifg=bg      guibg=#ccbf99
-hi CursorIM                gui=underline   guifg=bg      guibg=#ccbf99
+hi CursorIM                gui=underline   guifg=fg      guibg=#458800
 hi Search                  gui=underline   guifg=bg      guibg=#997e33
 hi Visual                  gui=underline   guifg=bg      guibg=#887f66
 
@@ -52,7 +52,7 @@ hi Todo                    gui=underline   guifg=bg      guibg=#cc7e66
 hi Error                   gui=underline   guifg=fg      guibg=#7e3399
 hi Special                 gui=none        guifg=#afbb66 guibg=bg   
 hi SpecialKey              gui=none        guifg=#81cc66 guibg=bg   
-hi Identifier              gui=none        guifg=#eed899 guibg=bg   
+hi Identifier              gui=none        guifg=#bea869 guibg=bg   
 hi Constant                gui=none        guifg=#818822 guibg=bg   
 hi Statement               gui=none        guifg=#aa6667 guibg=bg   
 hi Comment                 gui=none        guifg=#458800 guibg=bg   

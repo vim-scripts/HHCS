@@ -1,7 +1,7 @@
 " Vim color file {{{1
 "  Maintainer: hira@users.sourceforge.jp
-" Last Change: 2003/11/09 (Sun) 20:14:11.
-"     Version: 1.1
+" Last Change: 2003/11/29 (Sat) 13:28:25.
+"     Version: 1.2
 " This color scheme uses a dark background.
 
 " Happy Hacking color scheme {{{1
@@ -15,9 +15,9 @@ let html_my_rendering = 1
 
 
 " frame & title & message (theme) {{{1
-hi LineNr                  gui=underline   guifg=#484455 guibg=#13101c
-hi Folded                  gui=none        guifg=#484455 guibg=bg
-hi FoldColumn              gui=none        guifg=#484455 guibg=bg
+hi LineNr                  gui=underline   guifg=#686475 guibg=#13101c
+hi Folded                  gui=none        guifg=#686475 guibg=bg
+hi FoldColumn              gui=none        guifg=#686475 guibg=bg
 " title
 hi Title                   gui=underline   guifg=fg      guibg=#484455 
 " message
@@ -33,7 +33,7 @@ hi StatusLineNC            gui=underline   guifg=#302c3c guibg=#13101c
 hi WildMenu                gui=underline   guifg=bg      guibg=#a499cc
 hi Cursor                  gui=underline   guifg=bg      guibg=#a499cc
 hi IncSearch               gui=underline   guifg=bg      guibg=#a499cc
-hi CursorIM                gui=underline   guifg=bg      guibg=#a499cc
+hi CursorIM                gui=underline   guifg=fg      guibg=#662088
 hi Search                  gui=underline   guifg=bg      guibg=#493399
 hi Visual                  gui=underline   guifg=bg      guibg=#6d6688
 
@@ -49,10 +49,10 @@ hi ModeMsg                 gui=underline   guifg=bg      guibg=#7c3399
 hi Normal                  gui=none        guifg=#9388bb guibg=#262233
 hi Ignore                  gui=none        guifg=bg      guibg=bg   
 hi Todo                    gui=underline   guifg=bg      guibg=#6683cc
-hi Error                   gui=underline   guifg=fg      guibg=#339949
+hi Error                   gui=underline   guifg=fg      guibg=#335544
 hi Special                 gui=none        guifg=#9b66bb guibg=bg   
 hi SpecialKey              gui=none        guifg=#cc66b6 guibg=bg   
-hi Identifier              gui=none        guifg=#ac99ee guibg=bg   
+hi Identifier              gui=none        guifg=#7c69be guibg=bg   
 hi Constant                gui=none        guifg=#774499 guibg=bg   
 hi Statement               gui=none        guifg=#668aaa guibg=bg   
 hi Comment                 gui=none        guifg=#662088 guibg=bg   
