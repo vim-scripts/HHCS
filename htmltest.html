@@ -1,0 +1,25 @@
+
+  <A href="">HOGEHOGE</A>               <!--OK-->
+
+          <B>HOGEHOGE</B>               <!--OK-->
+
+          <I>HOGEHOGE</I>               <!--OK-->
+
+     <I>||<B>HOGEHOGE</B>||</I>         <!--OK-->
+     <B>||<I>HOGEHOGE</I>||</B>         <!--OK-->
+
+     <U>|||||HOGEHOGE||||||</U>         <!--OK-->
+
+     <U>||<B>HOGEHOGE</B>||</U>         <!--OK-->
+     <B>||<U>HOGEHOGE</U>||</B>         <!--OK-->
+
+     <U>||<I>HOGEHOGE</I>||</U>         <!--OK-->
+     <I>||<U>HOGEHOGE</U>||</I>         <!--OK-->
+                                        <!--OK-->
+<U>||<I>||<B>HOGEHOGE</B>||</I>||</U>   <!--NG? (If <B> dose not works, get latest html.vim's)-->
+<U>||<B>||<I>HOGEHOGE</I>||</B>||</U>   <!--OK-->
+<I>||<U>||<B>HOGEHOGE</B>||</U>||</I>   <!--OK-->
+<I>||<B>||<U>HOGEHOGE</U>||</B>||</I>   <!--OK-->
+<B>||<U>||<I>HOGEHOGE</I>||</U>||</B>   <!--OK-->
+<B>||<I>||<U>HOGEHOGE</U>||</I>||</B>   <!--OK-->
+
